@@ -8,17 +8,17 @@
     .cod{
       background: #A9A9A9
     }
-    .tabla {
-      margin: 10px;
-    }
     .img{
       float: left;
+      text-align: left;
     }
     .align {
       text-align: center;
+      display: flex;
+      align-items: center;
     }
-    .sell {
-  
+    .espacio{
+      margin: 10px;
     }
   </style>
 </head>
@@ -26,40 +26,41 @@
 <title>Casa en venta</title>
 
 <body>
-  <table>
-   
-   <div class="img tabla align">
-    <img src="imagenes/bo.png" align="left">
-   </div>
 
-   <div class="img tabla sell">
-     <img src="imagenes/casa.png">
-   </div>
+  <div class="align">
+    <div class="img">
+      <img src="imagenes/bo.png">
+    </div>
 
-  <div class="img tabla">
- 
-  <h1 class="letrazul">
-    Del angel, Zacatecas centro
-  </h1>
-  
-  <h1>
-    Del angel
-  </h1>
-  
-  <p>
-    Zacatecas Centro, Zacatecas, Zacatecas
-  </p>
+    <div class="img espacio">
+      <img src="imagenes/casa.png">
+    </div>
 
-  <p>
-    Renta/ MN 4,500
-  </p>
+    <div class="img">
+      <div>
+        <h1 class="letrazul">
+          Del angel, Zacatecas centro
+        </h1>
+
+        <h1>
+          Del angel
+        </h1>
   
-  <p class="cod">
-    COD. 5CDED7B34D35BF17D496ECAE-13131
-  </p>
+        <p>
+          Zacatecas Centro, Zacatecas, Zacatecas
+        </p>
+
+        <p>
+          Renta/ MN 4,500
+        </p>
   
+        <p class="cod">
+          COD. 5CDED7B34D35BF17D496ECAE-13131
+        </p>
+  
+      </div>
+    </div>   
   </div>
-   </table>
 
 </body>
 </html>
